@@ -18,14 +18,14 @@
     
 }
 
+#innerHeader h3, h2{
+    color: #333333
+}
+
 .tagline{
     display: flex; 
     align-items: center; 
     justify-content: center; 
-}
-
-#innerHeader h3, h2{
-    color: #333333
 }
 
 .headings{
@@ -55,7 +55,15 @@ h3{
     margin-bottom: 0px !important;
 }
 
+button:hover{
+    color:#ff5963 !important;
+    box-shadow:inset 0 0 0 2px #ff5963 !important; 
+}
 
+.headingImg{
+    width: 40%; 
+    height: auto; 
+}
 
 
 /* #e1525f */
